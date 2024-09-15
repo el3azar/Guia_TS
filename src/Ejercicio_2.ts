@@ -1,4 +1,13 @@
-// Ejercicio_2.ts
+/*
+EJERCICIO 2: Crear una clase Calculadora que contendrá los siguientes métodos:
+•	Sumar
+•	Restar
+•	Multiplicar
+•	Dividir
+•	Potencia
+•	Factorial
+
+*/
 export class Calculadora {
 
     // Método para sumar dos números

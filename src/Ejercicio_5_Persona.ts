@@ -1,4 +1,4 @@
-// Persona.ts
+
 export abstract class Persona {
     protected nombre: string;
     protected apellido: string;

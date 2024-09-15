@@ -1,14 +1,23 @@
-// Ejercicio_3.ts
+/* 
+EJERCICIO 3. Crea una clase llamada Canción:
+Atributos: título, género de la canción y un atributo privado que se llame autor.
+Métodos: 
+•	Crear un constructor que reciba como parámetros el título y género de la canción.
+•	Utiliza los métodos get y set para recibir e imprimir la propiedad autor. 
+•	Crea un método para mostrar los datos de la canción. 
+
+*/
+
 export class Cancion {
-    private autor: string;   // Atributo privado
-    public titulo: string;  // Atributo público
-    public genero: string;  // Atributo público
+    private autor: string;   
+    public titulo: string;  
+    public genero: string;  
   
     // Constructor que recibe título y género
     constructor(titulo: string, genero: string) {
       this.titulo = titulo;
       this.genero = genero;
-      this.autor = ''; // Inicializa el atributo autor vacío
+      this.autor = ''; 
     }
   
     // Método get para obtener el autor
